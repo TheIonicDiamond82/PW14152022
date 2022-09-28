@@ -1,0 +1,10 @@
+.menu
+{
+    justify-content: first baseline;
+    display: flex;
+    background-color: blue;
+}
+.div
+{
+    background-color: aqua;
+}
