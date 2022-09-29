@@ -1,0 +1,57 @@
+body{
+    font-size: 1.2em;
+    max-width: max-content;
+    background-color: beige;
+    margin:0;
+}
+.menu
+{
+    justify-content: baseline;
+    display: flex;
+    background-color: #026dc6;
+    width: 100%;
+    margin-top: -5px;
+    border-radius: 3px;
+
+    
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+li:hover
+{
+    background-color: darkcyan;
+}
+.resplandor
+{
+    width: 100%;
+    background-color: rgb(93, 200, 219);
+    margin: 0%;
+}
+#logo
+{
+    position:absolute;
+    margin-right: 70%;
+
+}
+.liform
+{
+ margin-left: 40%;
+}
+a{
+    color: white;
+    font-style: normal;
+
+}
+.div
+{
+    
+    align-items: center;
+}
