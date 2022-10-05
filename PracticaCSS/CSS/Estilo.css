@@ -1,44 +1,102 @@
 body{
     font-size: 1.2em;
     max-width: max-content;
-    background-color: beige;
+    background-color: white;
     margin:0;
+    
+}
+nav input{
+    border-radius: 5px;
+}
+footer{
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    background-color: #29353f;
+    font-size: 50px;
+    font-weight: 900;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table.separator
+{
+    width: 30%;
+    text-align: right;
+}
+tr {
+    width: 33%;
+}
+footer article{
+    margin-top: 15px;
+    margin-left: 8px;
+    width: 33%;
+    background-color: #334757;
+    border-radius: 5px;
+    
+}
+#vacio
+{
+    margin-top: 15px;
+    margin-left: 8px;
+    width: 33%;
+    background-color: #334757;
+    border-radius: 5px;
 }
 .menu
 {
     justify-content: baseline;
     display: flex;
-    background-color: #026dc6;
+    background-color: #204b6e;
     width: 100%;
     margin-top: -5px;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
 
     
 }
-
+#slide
+{
+    border-radius: 5px;
+}
 ul{
     list-style-type: none;
     width: 100%;
 }
-li{
+ul li{
+
+    width: auto;
+    height: 100%;
     display: inline-block;
     margin-right: 20px;
    
 }
-li:hover
+ul li:hover
 {
-    background-color: darkcyan;
+
+    background-color: rgb(36, 72, 172);
+    
 }
 .resplandor
 {
     width: 100%;
+    height: 220px;
     background-color: rgb(93, 200, 219);
-    margin: 0%;
+    position: relative;
+    
 }
 #logo
 {
-    position:absolute;
-    margin-right: 70%;
+    margin-left: 8%;
+    position: absolute;
+    margin-bottom: 60px;
+    
+
+}
+#logo
+{
+   z-index: 1;
+    margin-top: 50px;
 
 }
 .liform
@@ -52,6 +110,66 @@ a{
 }
 .div
 {
-    
     align-items: center;
+}
+header
+{
+    height: 50%;
+    
+}
+article
+{
+    display: inline-block;
+}
+section#section02
+{
+    height: 350px;
+    width: 100%;
+    position: static;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.order1
+{
+    margin-top: -10px;
+}
+.order2
+{
+    text-align: center;
+}
+
+section#section02 article
+{
+    width: 33%;
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+section#section02 article#3rd
+{
+    width: 25%;
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.art1
+{
+    font-size: 60px;
+    color: rgb(52, 55, 61);
+}
+.art2
+{
+    font-size: 35px;
+    color: darkslategrey;
+}
+.art3
+{
+    font-size: 35px;
+    color: darkslategrey;
+    text-align: left;
+}
+#3rd
+{
+    margin-left: 60px;
 }
