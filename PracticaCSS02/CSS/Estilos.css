@@ -1,0 +1,119 @@
+body{
+    font-size: 16px; /* 1 em */
+    margin: 0px auto;
+    /* Recomendacion del cliente*/
+    max-width: 1078px;
+    max-height: 1078px;
+}
+
+header input{
+    float: right;
+    margin-top: 15px;
+    margin-right: -230px;
+}
+
+header nav{
+    margin-left: 240px;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: lightgray;
+    font-size: 1.5em;
+    margin-right: 30px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 3px;
+}
+
+#bgoffer{
+    position: relative;
+    bottom: 380px;
+    right: 720px;
+}
+
+#granthams{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#paint{
+    float: right;
+}
+
+#primeraSeccion{
+    margin-top: 60px;
+    height: 320px;
+    margin-bottom: 0px;
+}
+
+#primeraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01art01{
+    width: 61%;
+    float:left;
+    margin-left: 30px;
+}
+
+#secc01art02{
+    width: 30%;
+    float:left;
+    margin-left: 50px;
+}
+#secc01art02 ul{
+    list-style: none;
+    margin-left: -40px;
+    line-height: 25px;
+}
+
+#secc01art02 ul li:before{
+    content: "* ";
+    color: #FF0099;
+}
+
+#segundaSeccion{
+    text-align: right;
+}
+
+#segundaSeccion article{
+    margin-right: 35px;
+}
+
+#terceraSeccion article{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+
+#sec03art04{
+    padding-top: 40px;
+}
+
+.colorrosa {
+    color: #FF0099;
+}
+.colorverde{
+    color: rgb(45, 193, 45);
+}
+.colorazul{
+    color: rgb(60, 60, 237);
+}
+
+.letragrande{
+    font-size: 3em;
+} 
+.letramediana{
+    font-size: 2em;
+}
+.letrapequena{
+    font-size: 1.5em;
+}
+.nito{
+    font-weight: bold;
+}
