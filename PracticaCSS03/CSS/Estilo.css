@@ -1,0 +1,274 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu
+{
+    justify-content: baseline;
+    background:linear-gradient(180deg, rgb(243, 100, 18),rgb(221, 185, 139), rgb(243, 100, 18) 50%);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    left: 0;
+    
+}
+.menu ul{
+    margin-left: -30px;
+}
+.menu ul li{
+    display: inline-block;
+    color:white;
+    margin-right:35px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}.header
+{
+    width: 100%;
+    display: inline-block;
+}
+
+.tr
+{
+    width: 100%;
+}
+.td1
+{
+ width: 90%;
+ 
+}
+.td2
+{
+    margin-top: 40px;
+    display: inline-block;
+    width: 90%;
+}
+.logo
+{
+    width:20%;
+    margin-left: 35px; 
+}
+.thema
+{
+    width:25%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#slider
+{
+    margin-left: 22px;
+    width: 100%;
+    
+}
+.art01
+{
+    top:100px;
+    width: 62%;
+    
+   
+}
+.divimg
+{
+    margin-top: 7px;
+    margin-left: 22px;
+    width: 102%;
+    height: 1px;
+    background: black;    
+}
+.art02
+{
+    margin-left: 26px;
+    width: 63%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px rgb(155, 154, 154);
+    border-style: solid;
+    
+
+}
+.em{
+    color:rgb(155, 154, 154);
+}
+.h2{
+    
+    color:rgb(107, 107, 107);
+    font-weight: 750;
+}
+.imagenarbol
+{
+    border-width: 9px;
+    border-style: solid ;
+    border-color: rgb(165, 160, 160);
+}
+#idSpan1
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px gray;
+}
+#idSpan1 span{
+    margin-left: 15px;
+    
+}
+td p{
+    margin-left: 15px;
+}
+#idSpan2
+{
+    width: 15%;
+    height: 25px;
+    border-radius: 8px;
+    background-color: rgb(165, 160, 160);
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+}
+#idSpan2 span
+{
+    padding-top: 20px;
+}
+
+.art03
+{
+    width: 30%;
+    position: absolute;
+    top:230px;
+    right: 60px;
+    border: 0.5px black;
+    border-radius: 15px;
+    border-style: solid;
+    justify-content: center;
+    
+    
+}
+.art03 img
+{
+    width: 45%;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.art04
+{
+    width: 30%;
+    position: absolute;
+    top:600px;
+    right: 60px;
+    border: 0.5px black;
+    border-radius: 15px;
+    border-style: solid;
+    height: 100px;
+    text-align: center;
+}
+#inputdiv
+{
+    border-radius: 18px;
+    border:0.8px rgb(66, 64, 64);
+    border-style: solid;
+    margin-top: 45px;
+    width: 82%;
+    margin-left: 35px;
+    height: 35px;
+    text-align: center;
+}
+#inputdiv .input
+{
+    margin-top: 3px;
+    border-radius: 25px;
+    height: 24px;
+    width: 85%;
+   border-color: rgb(63, 62, 68);
+   border-width: 1px;
+}
+#inputdiv .inputb
+{
+    border-radius: 30px;
+    height:29px ;
+    border-color: rgb(63, 62, 68);
+    border-width: 1px;
+    
+}
+.art05
+{
+    width: 30%;
+    position: absolute;
+    top:750px;
+    right: 60px;
+    border: 0.5px black;
+    border-radius: 15px;
+    border-style: solid;
+    
+    
+}
+#uli
+{
+    margin-top: 30px;
+}
+#uli li
+{
+margin: 10px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 1px;
+border-style: dotted;
+}
+.spantext1
+{
+    background:linear-gradient(180deg, rgb(243, 100, 18),rgb(221, 185, 139), rgb(243, 100, 18) 50%);
+    border-radius: 16px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: -22px;
+    
+}
+.spantext2
+{
+    background:linear-gradient(180deg, rgb(243, 100, 18),rgb(221, 185, 139), rgb(243, 100, 18) 50%);
+    border-radius: 16px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: -22px;
+    
+}
+.spantext3
+{
+    background:linear-gradient(180deg, rgb(243, 100, 18),rgb(221, 185, 139), rgb(243, 100, 18) 50%);
+    border-radius: 16px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: -22px;
+    
+}
+.span
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.seccion2
+{
+    margin-top: 80px;
+}
