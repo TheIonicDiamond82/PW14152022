@@ -1,0 +1,67 @@
+body{
+    background-color: #EFEFEF;
+}
+.menu
+{
+    
+    display: inline-block;
+}
+#Seccion1
+{
+ width: 30%;
+ 
+}
+#Seccion2
+{
+width: 70%;
+background-color: white;
+
+}
+#art2sec1
+{
+    background-color: white;
+}
+#art2sec1 span
+{
+    margin-left: 12px;
+    
+}
+.pwl
+{
+    background-color: #255C92;
+    text-align: left;
+    margin-bottom: -17px;
+    width: 100%;
+}
+.pwl tr td span
+{
+text-align: left;
+margin-left: -35px;
+color:white
+}
+.pwp
+{
+    background-color: #255C92;
+    text-align: left;
+    width: 100%;
+}
+.pwp tr td span
+{
+text-align: left;
+margin-left: -35px;
+color:white
+}
+#Seccion1 article ul 
+{
+    background-color: #12273b;
+    color: white;
+}
+#Seccion1 article ul li
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Seccion1 article ul li::before
+{
+    
+}
