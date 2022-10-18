@@ -117,3 +117,68 @@ header nav ul li{
 .nito{
     font-weight: bold;
 }
+.imgfs
+{
+    position: absolute;
+    right: 190px;
+    bottom: -154px;
+}
+.imgr
+{
+    position: absolute;
+    right: 140px;
+    bottom: -182px;
+}
+#footer
+{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(60, 60, 237) ;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+}
+.td1
+{
+    padding-top: 60px;
+}
+#txt
+{
+    margin-left: 15px;
+    margin-bottom:50px;
+}
+.facebook
+{
+position: absolute;
+right: 275px;
+bottom: -205px;
+
+}
+.twitter
+{
+position: absolute;
+right: 220px;
+bottom: -205px;
+}
+#txtCent
+{
+    margin-left: 25px;
+    margin-top:90px;
+}
+#valid
+{
+    position: absolute;
+    bottom:-330px;
+    right: 180px;
+    border-style:solid;
+    border-width: 1.5px;
+    border-color: white;
+    width: 100px;
+    height: 18px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#spanv
+{
+padding-top:15px;
+}
