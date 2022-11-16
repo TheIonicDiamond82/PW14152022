@@ -7,6 +7,8 @@ const App =
             muestra: false,
             edad: 21,
             nombre:"",
+            personas:[],
+            cantidad:0,
         }
     },
     methods: {
@@ -19,14 +21,18 @@ const App =
         },
         randomuser: async function()
         {
+            //this.cantidad=this.cantidad+1;
             let n= "";
-            await axios.get('https://randomuser.me/api/').then(function(response)
+            let p=[];
+            await axios.get('https://randomuser.me/api/?results='+this.cantidad).then(function(response)
             {
                 console.log(response.data.results[0].name.last);
                 n=response.data.results[0].name.first +" "+ response.data.results[0].name.last;
-                
+                p=response.data.results;
             });
             this.nombre=n;
+            this.personas=p;
+            
         }
     },
 }

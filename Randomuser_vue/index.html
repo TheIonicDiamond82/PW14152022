@@ -5,6 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Randome User Vuejs</title>
+    <style>
+        #personasrandom
+        {
+            background: gray;
+            border-radius: 5px;
+            box-shadow: 8px 8px 8px black;
+            color:white;
+            margin: 15px;
+            padding: 15px;
+            width: 270px;
+            display: inline-block;
+            
+        }
+        #personasrandom:hover
+        {
+            -webkit-transform:scale(1.1);
+            transform:scale(1.1);
+            background: blueviolet;
+            
+        }
+        #personasrandom img
+        {
+           border-radius: 200px;
+           vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
@@ -15,10 +41,15 @@
             Tu edad es: {{edad}}
         </div>
         <br>
+        <input type="text" v-model="cantidad">
         <button @click.prevent="randomuser()">
             Random User
         </button>
-        {{nombre}}
+        <p></p>
+        <div v-for="persona in personas" id="personasrandom">
+            <img :src="persona.picture.large" alt="" >
+            {{persona.name.first}}&nbsp{{persona.name.last}}
+        </div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
